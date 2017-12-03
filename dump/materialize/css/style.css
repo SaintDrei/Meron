@@ -1,0 +1,19 @@
+
+.pager {
+    width: 100vw;
+    height: 93.3vh;
+    padding-top: 1.3vh;
+    margin-bottom: 6.7vh;
+    
+}
+
+.place {
+    background-image: url("../../pimg.jpg");
+    background-size: 100% 100%;
+    
+}
+
+.firstbox {
+    height: 93vh;
+
+}
