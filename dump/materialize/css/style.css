@@ -13,6 +13,20 @@
     
 }
 
+.timenl{
+    background-image: url("http://vizts.com/wp-content/uploads/2015/10/manila-philippines-1170x780.jpg");
+    background-size: 100% 100%;
+}
+.timenl2{
+    background-image: url("https://i.pinimg.com/originals/b9/21/e8/b921e8a13e418adee1b5f324d83d112f.jpg");
+    background-size: 100% 100%;
+}
+
+.Absolute-Center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
 .firstbox {
     height: 93vh;
 

@@ -1,3 +1,4 @@
+
 <?php
 
 /**
@@ -58,3 +59,15 @@ $response = $kernel->handle(
 $response->send();
 
 $kernel->terminate($request, $response);
+?>
+
+<html>
+<head>
+
+</head>
+<body>
+<h1>SHIT SHIT</h1>
+</body>
+
+</html>
+
