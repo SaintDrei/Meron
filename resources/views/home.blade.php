@@ -8,3 +8,125 @@
 
 ?>
 
+        <!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="stylesheet" href="materialize/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ranchers" rel="stylesheet">
+    <style>
+        .ranch{font-family: 'Ranchers', cursive;}
+    </style>
+</head>
+<body>
+
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+
+<div class="navbar">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo ranch left" style="padding-left: 1%;">Meron</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<div id="homeboard" class="pager col center">
+    <div class="firstbox l10 col container pull-l2">
+        <div class="row" style="height: 65vh; margin-bottom: 0;">
+            <div class="col l8 m8 s8 place" style="height: 100%;">
+                <div class="row timenl" style="height: 70%; margin-bottom: 0;">
+                    <div class="left ranch" style="color:white; padding-left:5%;"><h2>10:00AM</h2>
+                    </div>
+                </div>
+                <div class="row timenl2" style="height: 30%;">
+
+                </div>
+            </div>
+            <div class="col l4 m4 s8 place" style="height: 100%;">
+
+            </div>
+        </div>
+        <div class="row" style="height: 30vh;">
+            <div class="col l3 place center" style="height: 100%; color:white;background-image:url('https://imgur.com/FJSzDVE.png'); background-size:100% 100%;">
+                <div class="center" style="margin-top:50%;"><h3>Events</h3></div>
+            </div>
+            <div class="col l3 place center" style="height: 100%; color:white; background-image:url('https://i.imgur.com/pMchbeH.png'); background-size:100% 100%;">
+                <div class="center" style="margin-top:50%;"><h3>Activities</h3></div>
+            </div>
+            <div class="col l3 place center" style="height: 100%; color:white; background-image:url('https://i.imgur.com/8EvQtwI.png'); background-size:100% 100%;">
+                <div class="center" style="margin-top:50%;"><h3>Transpo</h3></div>
+            </div>
+            <div class="col l3 place center" style="height: 100%; color:white;background-image:url('https://imgur.com/69fcLWK.png'); background-size:100% 100%;">
+                <div class="center" style="margin-top:50%;"><h3>Dining</h3></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<div id="homeboard" class="pager col center">
+    <div class="firstbox l10 col container pull-l2">
+        <div class="row" style="height: 65vh; margin-bottom: 0;">
+            <div class="col l8 m8 s8 place" style="height: 100%;">
+                <div class="row place" style="height: 70%; margin-bottom: 0;">
+
+                </div>
+                <div class="row place" style="height: 30%;">
+
+                </div>
+            </div>
+            <div class="col l4 m4 s8 place" style="height: 100%;">
+
+            </div>
+        </div>
+        <div class="row" style="height: 30vh;">
+            <div class="col l3 place" style="height: 100%;">
+
+            </div>
+            <div class="col l3 place" style="height: 100%;">
+
+            </div>
+            <div class="col l3 place" style="height: 100%;">
+
+            </div>
+            <div class="col l3 place" style="height: 100%;">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="fixed-action-btn click-to-toggle" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large pink waves-effect waves-light" onclick="window.scrollTo(0, 0);">
+        <i class="large material-icons">arrow_upward</i>
+    </a>
+</div>
+
+
+<script src="materialize/js/jquery-3.2.1.min.js"></script>
+<script src="materialize/js/materialize.min.js"></script>
+<script src="materialize/js/script.js"></script>
+</body>
+</html>
